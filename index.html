@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RG Money - Financial Tools & Calculators</title>  
+  <link rel="stylesheet" href="style1.css">
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+  <img src="Logo-removebg.png" width="40px" height="40px" align="left"   alt="Loading">
+  <img src="Name.png" height="40px" align="left"   alt="Loading" >
+    <nav>
+      <ul>
+        <li><a href="mutual-fund-calculator.html" target="_blank">Mutual Funds</a>
+        </li>
+        <li><a href="InProgress.html" target="_blank">FD</a></li>
+        <li><a href="InProgress.html" target="_blank">Stocks</a></li>
+        <li><a href="InProgress.html" target="_blank">NPS</a></li>
+        <li><a href="InProgress.html" target="_blank">More</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="Heading">
+    <h2>All Financial Tools & Calculators</h2>
+      </div>
+    <section>
+      <div class="calculator-container">
+      <div class="calculator-card">
+        <a href="sip-calculator.html"target="_blank"><h2>SIP Calculator</h2></a>
+        <a href="sip-calculator.html"target="_blank">
+        <img src="sip.png" height="100px" width="100px" align="left"  alt="Loading"></a>
+        <p>Know returns from SIP or plan a future goal</p>
+        <br>
+        <button onclick="openSIPCalculator()">Calculate now</button>
+
+        <script>
+          function openSIPCalculator() {
+            window.open("sip-calculator.html", "_blank");
+          }
+        </script>
+      </div>
+
+      <div class="calculator-card">
+        <a href="lumpsum-calculator.html"target="_blank"><h2>Lumpsum Calculator</h2></a>
+        <a href="lumpsum-calculator.html"target="_blank">
+          <img src="Lump.png" height="100px" width="105px" align="left"  alt="Loading"></a>
+        <p>Know returns from Lumpsum Investment</p>
+        <br>
+        <button id="lumpsum-calculate-btn">Calculate Now</button>
+
+<script>
+  const lumpsumCalculateBtn = document.getElementById('lumpsum-calculate-btn');
+
+  lumpsumCalculateBtn.addEventListener('click', () => {
+    window.open('lumpsum-calculator.html', '_blank');
+  });
+</script>
+      </div>
+
+      <div class="calculator-card">
+        <a href="EMI-calculator.html"target="_blank"><h2>Loan EMI Calculator</h2></a>
+        <a href="EMI-calculator.html"target="_blank">
+          <img src="EMI.png" height="102px" width="102px" align="left"   alt="Loading"></a>
+        <p>Calculate EMI for Home,car or personal loan</p>
+        <br>
+        <button id="EMI-calculate-btn">Calculate Now</button>
+        <script>
+          const EMICalculateBtn = document.getElementById('EMI-calculate-btn');
+        
+          EMICalculateBtn.addEventListener('click', () => {
+            window.open('EMI-calculator.html', '_blank');
+          });
+        </script>
+      </div>
+
+      <div class="calculator-card">
+        <a href="RD-calculator.html"target="_blank"><h2>RD Calculator</h2></a>
+        <a href="RD-calculator.html"target="_blank">
+          <img src="RD.png" height="102px" width="108px" align="left"   alt="Loading"></a>
+        <p>Know returns from Recurring deposits</p>
+        <br>
+        <button id="RD-calculate-btn">Calculate Now</button>
+        <script>
+          const RDCalculateBtn = document.getElementById('RD-calculate-btn');
+        
+          RDCalculateBtn.addEventListener('click', () => {
+            window.open('RD-calculator.html', '_blank');
+          });
+        </script>
+      </div>
+
+      <div class="calculator-card">
+        <a href="FD-calculator.html"target="_blank"><h2>FD Calculator</h2></a>
+        <a href="FD-calculator.html"target="_blank">
+          <img src="FD.png" height="102px" width="94px" align="left"  alt="Loading"></a>
+        <p>Calculate Fixed Deposit returns</p>
+        <br>
+        <button id="FD-calculate-btn">Calculate Now</button>
+        <script>
+          const FDCalculateBtn = document.getElementById('FD-calculate-btn');
+        
+          FDCalculateBtn.addEventListener('click', () => {
+            window.open('FD-calculator.html', '_blank');
+          });
+        </script>
+      </div>
+
+      <div class="calculator-card">
+        <a href="retirement-calculator.html"target="_blank"><h2>Inflation Calculator</h2></a>
+        <a href="retirement-calculator.html"target="_blank">
+          <img src="Inflation.png" height="108px" width="120px" align="left"   alt="Loading"></a>
+        <p>Calculate the future value of your money</p>
+        <br>
+        <button id="retirement-calculate-btn">Calculate Now</button>
+        <script>
+          const retirementCalculateBtn = document.getElementById('retirement-calculate-btn');
+        
+          retirementCalculateBtn.addEventListener('click', () => {
+            window.open('retirement-calculator.html', '_blank');
+          });
+        </script>
+      </div>
+      </div>
+      </section>
+      <br>
+      <br>
+      <footer>
+        <nav>
+          <h5>Created by Rhythm Garg, DTU</h5>
+          
+            <a href="https://www.linkedin.com/in/rhythm-garg-8a82b429a/" target="_blank">
+            <img src="LinkedIn_icon.svg.png" height="30px" width="30px" alt="not available"></a></li>
+          </nav>
+      </footer>
+  </main>
+</body>
+</html>

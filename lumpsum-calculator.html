@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lumpsum Calculator</title>
+  <link rel="stylesheet" href="style1.css">
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <img src="Logo-removebg.png" width="40px" height="40px" align="left"  alt="Loading">
+    <img src="Name.png" height="40px" align="left"  alt="Loading" >
+      <nav>
+        <ul>
+          <li><a href="mutual-fund-calculator.html" target="_blank">Mutual Funds</a>
+          </li>
+          <li><a href="InProgress.html" target="_blank">FD</a></li>
+          <li><a href="InProgress.html" target="_blank">Stocks</a></li>
+          <li><a href="InProgress.html" target="_blank">NPS</a></li>
+          <li><a href="InProgress.html" target="_blank">More</a></li>
+        </ul>
+      </nav>
+    </header>
+  <div class="container">
+    <aside class="sidebar">
+    <a href="index.html" target="_blank"><h3>Home</h3></a><hr size="3" color="#0f365d">
+    <a href="FD-calculator.html" target="_blank"><h3>FD Calculator</h3></a><hr size="3" color="#0f365d">
+    <a href="RD-calculator.html" target="_blank"><h3>RD Calculator</h3></a><hr size="3" color="#0f365d">
+    <a href="sip-calculator.html" target="_blank"><h3>SIP Calculator</h3></a><hr size="3" color="#0f365d">
+    <a href="retirement-calculator.html" target="_blank"><h3>Inflation Calculator</h3></a><hr size="3" color="#0f365d">
+    <a href="EMI-calculator.html" target="_blank"><h3>EMI Calculator</h3></a><hr size="3" color="#0f365d">
+    </aside>
+    <main class="main-content">
+
+  <h2>Lumpsum Calculator</h2>
+  <form id="lumpsum-form">
+    <label for="investment-amount">Investment Amount:</label>
+    <input type="range" id="investment-amount" min="10000" max="5000000" step="500" value="10000">
+    <br>
+    <output id="investment-amount-value">10000</output>
+<br>
+    <label for="expected-return">Expected Annual Return %</label>
+    <input type="range" id="expected-return" min="1" max="30" step="0.1" value="12">
+    <output id="expected-return-value">12</output>
+<br>
+    <label for="investment-horizon">Investment Horizon (Years):</label>
+    <input type="range" id="investment-horizon" min="1" max="75" step="1" value="5">
+    <output id="investment-horizon-value">5</output>
+<br>
+    <button type="submit">Calculate</button>
+  </form>
+
+  <div id="result"></div>
+  <script src="lumpsum-calculator.js"></script>
+  <br>
+<hr size="3" color="#0f365d">
+<section id="my-section">
+  <h2>Lumpsum Investment Options</h2>
+  <p>A lumpsum calculator helps you estimate the future value of a one-time investment. Here are some common lumpsum investment options, along with their associated risks and expected returns:</p>
+
+  <ul>
+    <li><h3>Fixed Deposits</h3>
+      <ul>
+        <li>Risk: Low</li>
+        <li>Expected Return: Moderate</li>
+        <li>Description: Fixed deposits offer a guaranteed rate of return with minimal risk.</li>
+      </ul>
+    </li>
+
+    <li><h3>Recurring Deposits</h3>
+      <ul>
+        <li>Risk: Low</li>
+        <li>Expected Return: Moderate</li>
+        <li>Description: Recurring deposits involve making regular fixed deposits.</li>
+      </ul>
+    </li>
+
+    <li><h3>Equity Investments</h3>
+      <ul>
+        <li>Risk: High</li>
+        <li>Expected Return: High</li>
+        <li>Description: Equity investments involve buying shares of companies.</li>
+      </ul>
+    </li>
+
+    <li><h3>Debt Investments</h3>
+      <ul>
+        <li>Risk: Moderate</li>
+        <li>Expected Return: Moderate</li>
+        <li>Description: Debt investments involve lending money to companies or governments.</li>
+      </ul>
+    </li>
+
+    <li><h3>Real Estate</h3>
+      <ul>
+        <li>Risk: High</li>
+        <li>Expected Return: Can be high but depends on various factors</li>
+        <li>Description: Investing in real estate can provide rental income and potential capital appreciation.</li>
+      </ul>
+    </li>
+
+    <li><h3>Gold</h3>
+      <ul>
+        <li>Risk: Moderate</li>
+        <li>Expected Return: Can be volatile</li>
+        <li>Description: Gold is often considered a safe-haven asset and can provide diversification benefits.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p><h3>Remember:</h3></p>
+  <ol>
+    <li>The choice of investment option depends on your risk tolerance, financial goals, and time horizon.</li>
+    <li>It's advisable to consult with a financial advisor before making any investment decisions.</li>
+    <li>Diversification across different asset classes can help manage risk.</li>
+  </ol>
+<h2>Common FAQs</h2>
+<h2>What is a Lumpsum Investment?</h2>
+    <p>A lumpsum investment involves investing a large sum of money at once. It's often used for long-term financial goals like retirement or buying a property.</p>
+
+    <h2>Factors Affecting Lumpsum Investments</h2>
+    <ul>
+      <li>Interest Rate: The higher the interest rate, the faster your investment grows.</li>
+      <li>Time Period: The longer you invest, the more time your money has to compound.</li>
+      <li>Risk Tolerance: Consider your comfort level with investment risk.</li>
+    </ul>
+
+    <h2>Tips for Lumpsum Investments</h2>
+    <ul>
+      <li>Start early to benefit from compounding.</li>
+      <li>Diversify your investments to manage risk.</li>
+      <li>Consider consulting a financial advisor for personalized advice.</li>
+    </ul>
+  </section>
+  <footer>
+    <nav>
+      <h5>Created by Rhythm Garg, DTU</h5><br>
+        <a href="https://www.linkedin.com/in/rhythm-garg-8a82b429a/" target="_blank">
+        <img src="LinkedIn_icon.svg.png" height="30px" width="30px" alt="not available"></a></li>
+      </nav>
+  </footer>
+</main>
+</div>
+</body>
+</html>
